@@ -72,7 +72,7 @@ class Ui {
     });
   }
 
-  //Slogan slider Düğme Fonksiyonları
+  //slide-one Slider Düğme Fonksiyonları
   arrowLeftSlideOneUI(){
     slideNumber--;
     if(slideNumber<1){
@@ -90,7 +90,7 @@ class Ui {
     slideNumberElement.innerHTML = slideNumber;
 
   }
-  // Ürün Slider Düğme Fonksiyonları
+  // Product Slider Düğme Fonksiyonları
 
   arrowLeftProductUI(){
         if(productsLeft!=0)

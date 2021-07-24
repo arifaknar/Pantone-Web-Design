@@ -71,7 +71,7 @@ const ui = new Ui();
 const showMenuToUi = () => ui.showMenu();
 const hideMenuToUi = () => ui.hideMenu();
 
-//Home-left Slider Düğme Eventleri
+//slide-one Slider Düğme Fonksiyonları
 const arrowLeftSlideOne = () => {
    ui.arrowLeftSlideOneUI()
    
@@ -80,7 +80,7 @@ const arrowRightSlideOne= () => {
  ui.arrowRightSlideOneUI()
 };
 
-//Product Slider İşlemleri
+//Product Slider Düğme Fonksiyonları
 const arrowRightProduct = () => {
   ui.arrowRightProductUI();
 };
