@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/shortCutLogo.png" type="image/x-icon">
+    <title>Pantone Offset</title>
+
+    <!-- Bootstrap CSS Files  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!-- Local CSS Files -->
+
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css"> <!-- Tablet CSS -->
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css"> <!-- Mobile CSS-->
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+    <!-- Home Section Start -->
+    <section id="home">
+        <header>
+            <div class="container-fluid">
+                <div class="container">
+
+                    <nav>
+                        <div id="nav-left">
+                            <div id="language" class="col-12 col-lg-2">
+                                <span class="active">TR</span>
+                                <span>EN</span>
+                            </div>
+                            <span class="line-l d-none d-lg-inline"></span>
+                            <div class="social-media-group-element col-lg-10 d-none d-lg-inline">
+                                <ul>
+                                    <a href="https://www.facebook.com/pantonecreative"><li><svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="14px">
+                                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                            d="M2.110,2.938 C2.110,3.274 2.110,4.766 2.110,4.766 L0.677,4.766 L0.677,7.000 L2.110,7.000 L2.110,13.641 L5.053,13.641 L5.053,7.000 L7.028,7.000 C7.028,7.000 7.213,5.929 7.302,4.758 C7.045,4.758 5.064,4.758 5.064,4.758 C5.064,4.758 5.064,3.457 5.064,3.229 C5.064,3.002 5.385,2.694 5.702,2.694 C6.018,2.694 6.687,2.694 7.305,2.694 C7.305,2.390 7.305,1.338 7.305,0.368 C6.479,0.368 5.539,0.368 5.125,0.368 C2.037,0.367 2.110,2.604 2.110,2.938 Z" />
+                                    </svg></i></li></a>
+                                <a href="https://twitter.com/pantonecreative"> <li><svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="10px">
+                                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                            d="M12.236,1.436 C12.179,1.453 12.122,1.468 12.065,1.483 C11.716,1.573 11.684,1.454 11.937,1.195 C12.050,1.079 12.150,0.952 12.237,0.814 C12.431,0.507 12.263,0.374 11.932,0.517 C11.813,0.569 11.693,0.615 11.571,0.656 C11.230,0.772 10.746,0.597 10.442,0.402 C10.058,0.155 9.622,0.032 9.133,0.032 C8.448,0.032 7.864,0.277 7.382,0.765 C6.899,1.255 6.657,1.846 6.657,2.539 C6.657,2.634 6.663,2.731 6.673,2.828 C6.691,2.988 6.426,3.103 6.070,3.052 C5.299,2.941 4.566,2.705 3.872,2.342 C3.183,1.982 2.576,1.529 2.049,0.982 C1.797,0.721 1.456,0.744 1.362,1.097 C1.306,1.308 1.278,1.527 1.278,1.755 C1.278,2.185 1.378,2.584 1.577,2.952 C1.676,3.135 1.792,3.300 1.925,3.448 C2.149,3.697 2.115,3.842 1.803,3.754 C1.491,3.664 1.263,3.533 1.263,3.541 C1.263,3.550 1.263,3.558 1.263,3.558 C1.263,4.162 1.450,4.695 1.826,5.152 C2.057,5.435 2.326,5.653 2.632,5.806 C2.955,5.968 3.105,6.059 2.924,6.083 C2.816,6.097 2.706,6.104 2.596,6.104 C2.521,6.104 2.443,6.100 2.361,6.094 C2.232,6.082 2.209,6.355 2.405,6.661 C2.560,6.905 2.760,7.119 3.002,7.303 C3.249,7.492 3.515,7.627 3.799,7.709 C4.146,7.809 4.215,7.992 3.906,8.179 C3.142,8.644 2.297,8.876 1.370,8.876 C1.265,8.876 1.165,8.873 1.070,8.869 C0.905,8.861 1.016,9.009 1.335,9.177 C2.332,9.707 3.411,9.970 4.573,9.970 C5.452,9.970 6.277,9.830 7.048,9.547 C7.819,9.266 8.479,8.887 9.025,8.414 C9.572,7.940 10.043,7.396 10.439,6.780 C10.835,6.164 11.130,5.520 11.324,4.850 C11.518,4.179 11.615,3.507 11.615,2.835 C11.615,2.774 11.615,2.720 11.614,2.672 C11.612,2.582 11.847,2.338 12.110,2.088 C12.229,1.976 12.342,1.858 12.449,1.733 C12.688,1.459 12.582,1.333 12.236,1.436 Z" />
+                                    </svg></li></a>
+                                <a href="https://www.instagram.com/pantonecreative/"> <li><svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px">
+                                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                            d="M12.844,12.904 C12.104,13.641 11.048,14.010 9.886,14.010 L4.129,14.010 C2.967,14.010 1.910,13.640 1.171,12.904 C0.378,12.166 0.009,11.113 0.009,9.902 L0.009,4.107 C0.009,1.685 1.646,0.000 4.129,0.000 L9.939,0.000 C11.153,0.000 12.157,0.421 12.896,1.159 C13.636,1.896 14.006,2.897 14.006,4.107 L14.006,9.902 C14.006,11.113 13.583,12.166 12.844,12.904 ZM7.000,3.500 C5.067,3.500 3.500,5.067 3.500,7.000 C3.500,8.933 5.067,10.500 7.000,10.500 C8.933,10.500 10.500,8.933 10.500,7.000 C10.500,5.067 8.933,3.500 7.000,3.500 ZM10.500,1.750 C10.017,1.750 9.625,2.142 9.625,2.625 C9.625,3.108 10.017,3.500 10.500,3.500 C10.983,3.500 11.375,3.108 11.375,2.625 C11.375,2.142 10.983,1.750 10.500,1.750 Z" />
+                                    </svg></li></a>
+                                <a href="https://www.youtube.com/channel/UCOEIp3SKY1xysp1jSe1e3BA">
+                                <li><svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="17px">
+                                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                            d="M15.761,9.781 L15.761,14.372 C15.761,14.658 15.694,14.919 15.558,15.160 C15.423,15.401 15.238,15.612 15.005,15.793 C14.772,15.975 14.503,16.117 14.198,16.222 C13.891,16.325 13.560,16.379 13.205,16.379 L2.775,16.379 C2.428,16.379 2.100,16.325 1.794,16.222 C1.488,16.117 1.218,15.975 0.986,15.793 C0.755,15.612 0.569,15.401 0.433,15.160 C0.297,14.919 0.230,14.658 0.230,14.372 L0.230,9.781 C0.230,9.509 0.297,9.250 0.434,9.003 C0.569,8.755 0.756,8.541 0.987,8.364 C1.219,8.187 1.488,8.042 1.795,7.936 C2.101,7.828 2.429,7.774 2.776,7.774 L13.206,7.774 C13.553,7.774 13.882,7.828 14.193,7.936 C14.503,8.042 14.773,8.187 15.006,8.364 C15.240,8.542 15.423,8.756 15.558,9.003 C15.695,9.250 15.761,9.509 15.761,9.781 ZM3.474,14.883 L3.474,10.042 L4.754,10.042 L4.754,9.310 L1.299,9.310 L1.299,10.021 L2.406,10.021 L2.406,14.883 L3.474,14.883 ZM3.996,3.620 L2.566,0.809 L3.810,0.809 L4.522,2.910 L5.231,0.809 L6.474,0.809 L5.135,3.620 L5.135,6.895 L3.996,6.895 L3.996,3.620 ZM7.357,10.752 L6.289,10.752 L6.289,13.337 C6.289,13.524 6.290,13.669 6.298,13.769 C6.306,13.871 6.290,13.936 6.252,13.964 C6.220,14.074 6.130,14.156 5.977,14.210 C5.829,14.260 5.715,14.187 5.635,13.984 C5.618,13.956 5.616,13.888 5.624,13.782 C5.632,13.671 5.635,13.531 5.635,13.356 L5.613,10.752 L4.543,10.752 L4.568,13.316 C4.568,13.517 4.563,13.685 4.555,13.821 C4.548,13.956 4.550,14.059 4.568,14.130 C4.582,14.244 4.597,14.362 4.613,14.491 C4.627,14.620 4.701,14.723 4.835,14.799 C4.958,14.869 5.104,14.906 5.269,14.906 C5.438,14.906 5.601,14.880 5.758,14.831 C5.919,14.780 6.064,14.714 6.199,14.629 C6.334,14.542 6.435,14.447 6.495,14.350 L6.474,14.861 L7.357,14.881 L7.357,10.752 ZM6.379,4.050 C6.379,3.666 6.420,3.348 6.495,3.100 C6.591,2.840 6.741,2.656 6.950,2.543 C7.161,2.405 7.428,2.335 7.753,2.335 C8.039,2.335 8.278,2.377 8.474,2.460 C8.666,2.529 8.826,2.651 8.949,2.826 C9.043,2.953 9.114,3.094 9.160,3.255 C9.204,3.430 9.229,3.662 9.229,3.957 L9.229,5.053 C9.229,5.452 9.204,5.737 9.160,5.912 C9.141,6.072 9.066,6.250 8.925,6.446 C8.786,6.619 8.636,6.735 8.474,6.790 C8.278,6.875 8.059,6.915 7.810,6.915 C7.557,6.915 7.321,6.880 7.113,6.810 C6.918,6.755 6.775,6.653 6.683,6.508 C6.591,6.395 6.512,6.239 6.449,6.037 C6.404,5.846 6.379,5.564 6.379,5.180 L6.379,4.050 ZM7.333,5.754 C7.333,5.866 7.379,5.966 7.473,6.053 C7.565,6.139 7.678,6.183 7.809,6.183 C7.932,6.183 8.044,6.141 8.141,6.057 C8.238,5.975 8.285,5.873 8.285,5.754 L8.285,3.486 C8.285,3.360 8.238,3.255 8.141,3.167 C8.045,3.080 7.932,3.035 7.810,3.035 C7.686,3.035 7.575,3.080 7.480,3.167 C7.382,3.255 7.333,3.360 7.333,3.486 L7.333,5.754 ZM10.808,13.702 L10.808,11.558 C10.808,11.147 10.647,10.853 10.322,10.680 C10.215,10.625 10.088,10.596 9.950,10.596 C9.693,10.596 9.399,10.704 9.066,10.919 L9.066,9.310 L7.996,9.310 L7.996,14.841 L8.881,14.821 L8.949,14.476 C9.237,14.694 9.496,14.826 9.723,14.874 C9.953,14.922 10.145,14.902 10.304,14.815 C10.464,14.729 10.587,14.587 10.676,14.386 C10.764,14.187 10.808,13.959 10.808,13.702 ZM9.520,11.129 C9.644,11.129 9.752,11.162 9.850,11.230 C9.947,11.296 9.995,11.371 9.995,11.453 L9.995,13.879 C9.995,13.964 9.947,14.035 9.850,14.099 C9.752,14.161 9.643,14.194 9.520,14.194 C9.394,14.194 9.285,14.161 9.187,14.099 C9.091,14.036 9.044,13.964 9.044,13.879 L9.044,11.453 C9.044,11.370 9.092,11.296 9.187,11.230 C9.285,11.162 9.394,11.129 9.520,11.129 ZM10.018,6.466 C9.991,6.410 9.968,6.350 9.961,6.293 C9.952,6.234 9.942,6.176 9.925,6.121 C9.910,6.051 9.902,5.957 9.902,5.837 L9.902,5.379 L9.902,2.504 L10.902,2.504 L10.902,5.828 C10.902,5.912 10.936,5.984 11.005,6.047 C11.078,6.110 11.169,6.141 11.286,6.141 C11.394,6.141 11.487,6.110 11.564,6.047 C11.643,5.984 11.683,5.912 11.683,5.828 L11.683,2.504 L12.610,2.504 L12.610,6.771 L11.427,6.771 L11.449,6.425 C11.339,6.563 11.236,6.673 11.135,6.749 C11.011,6.817 10.877,6.853 10.728,6.853 C10.551,6.853 10.402,6.817 10.285,6.749 C10.184,6.686 10.095,6.592 10.018,6.466 ZM14.179,13.430 L13.378,13.430 L13.378,13.535 L13.378,13.900 C13.378,14.012 13.334,14.099 13.245,14.161 C13.156,14.225 13.050,14.255 12.927,14.255 L12.761,14.255 C12.638,14.255 12.537,14.225 12.454,14.161 C12.373,14.099 12.331,14.012 12.331,13.900 L12.331,13.859 L12.331,13.451 L12.331,12.906 L14.179,12.906 L14.179,12.331 C14.179,12.116 14.176,11.908 14.168,11.711 C14.160,11.511 14.141,11.356 14.111,11.246 C14.080,11.055 13.986,10.906 13.825,10.789 C13.667,10.675 13.482,10.596 13.267,10.556 C13.055,10.513 12.838,10.505 12.616,10.534 C12.396,10.562 12.206,10.627 12.040,10.733 C11.833,10.857 11.682,11.029 11.588,11.246 C11.494,11.460 11.449,11.760 11.449,12.145 L11.449,13.431 C11.449,13.974 11.609,14.363 11.926,14.592 C12.220,14.807 12.529,14.915 12.855,14.915 C12.886,14.915 12.916,14.915 12.950,14.915 C13.315,14.897 13.636,14.756 13.915,14.498 C14.124,14.310 14.229,14.062 14.229,13.755 C14.217,13.658 14.204,13.548 14.179,13.430 ZM13.355,12.206 L12.332,12.206 L12.355,11.694 C12.355,11.582 12.402,11.492 12.494,11.417 C12.588,11.344 12.699,11.307 12.832,11.307 L12.879,11.307 C13.017,11.307 13.135,11.342 13.234,11.411 C13.328,11.480 13.378,11.575 13.378,11.694 L13.355,12.206 Z" />
+                                    </svg></li></a>
+                                <a href="https://www.linkedin.com/company/pantone-creative-agency/"><li>
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="12px">
+                                        <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                            d="M12.778,11.995 L10.178,11.995 C10.063,11.995 9.969,11.909 9.969,11.801 L9.969,8.033 C9.969,6.978 9.885,6.171 8.825,6.171 C7.853,6.171 7.474,6.675 7.474,7.967 L7.474,11.801 C7.474,11.909 7.380,11.995 7.265,11.995 L4.666,11.995 C4.550,11.995 4.457,11.909 4.457,11.801 L4.457,4.051 C4.457,3.944 4.550,3.858 4.666,3.858 L7.160,3.858 C7.276,3.858 7.370,3.944 7.370,4.051 L7.370,4.555 C7.839,4.081 8.612,3.665 9.658,3.665 C12.592,3.665 12.987,5.629 12.987,7.551 L12.987,11.801 C12.987,11.909 12.894,11.995 12.778,11.995 ZM1.731,3.186 C0.784,3.186 0.013,2.472 0.013,1.595 C0.013,0.719 0.784,0.005 1.731,0.005 C2.678,0.005 3.449,0.719 3.449,1.595 C3.449,2.472 2.678,3.186 1.731,3.186 ZM0.428,3.858 L3.033,3.858 C3.148,3.858 3.242,3.944 3.242,4.051 L3.242,11.801 C3.242,11.909 3.148,11.995 3.033,11.995 L0.428,11.995 C0.312,11.995 0.219,11.909 0.219,11.801 L0.219,4.051 C0.219,3.944 0.312,3.858 0.428,3.858 Z" />
+                                    </svg>
+                                </li></a>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div id="logo"><img src="images/logo.png" alt="Logo" width="123" height="117"></div>
+                    <div id="menu-list">
+                        <div id="menu-open">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <div id="menu" class="hide">
+                            <span id="menu-close"> <img src="images/close.svg" alt="" width="100%" height="100%"></span>
+                            <ul>
+                                <a href="#corporate">
+                                    <li id="kurumsal">Kurumsal</li>
+                                </a>
+                                <a href="#">
+                                    <li id="kabiliyetlerimiz">Kabiliyetlerimiz</li>
+                                </a>
+                                <a href="#products">
+                                    <li id="urunlerimiz">Ürünlerimiz</li>
+                                </a>
+                                <a href="#news">
+                                    <li id="bizdenhaberler">Bizden Haberler</li>
+                                </a>
+                                <a href="#contact">
+                                    <li id="iletisim">İletişim</li>
+                                </a>
+                            </ul>
+                            <div id="menu-content">
+                                <li id="firstMenuContent"></li>
+                                <li id="secondMenuContent"></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="slide-one-container">
+
+                        <div id="carouselExampleSlidesOne" class="carousel slide" data-bs-interval="false">
+                            <div>
+                                <div id="slide-number-control">
+                                    <span id="slide-number">1</span><span> / 3</span>
+                                </div>
+                                <button class="carousel-control-prevv" style="position: absolute; top: 0;" type="button"
+                                    data-bs-target="#carouselExampleSlidesOne" data-bs-slide="prev">
+                                    <span class="fas fa-chevron-circle-left" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-nextt" type="button"
+                                    data-bs-target="#carouselExampleSlidesOne" data-bs-slide="next">
+                                    <span class="fas fa-chevron-circle-right" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+
+
+                            </div>
+
+
+
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item h-100 mb-auto active" data-bs-interval="10000">
+
+                                    <div class="slider-heading text-capitalize">kaliteli baskılar sağlam ciltler
+                                        altında!</div>
+
+                                </div>
+                                <div class="carousel-item h-100 mb-auto " data-bs-interval="10000">
+
+                                    <div class="slider-heading text-capitalize">example two</div>
+
+                                </div>
+                                <div class="carousel-item h-100 mb-auto " data-bs-interval="10000">
+
+                                    <div class="slider-heading text-capitalize">example three</div>
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <div id="slogans" class="slider-bottom text-capitalize text-white">
+                            <a href="#"><i class="fas fa-long-arrow-alt-right"></i> pantone hakkında bilgi
+                                al</span></a><span>
+                                <a href="#"><span><i class="fas fa-long-arrow-alt-right"></i> ürün
+                                        gruplarımız</span></a>
+                        </div>
+
+                    </div>
+
+                    <div id="product-info">
+                        <div id="carouselExampleSlidesTwo" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleSlidesTwo" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleSlidesTwo" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleSlidesTwo" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+
+
+
+                            <div class="col-md-12 ms-auto me-auto">
+                                <div class="carousel-inner " style="color: white;">
+
+                                    <div class="carousel-item active">
+                                        <div class="product-info-item" style="background-color: #e30613;">
+                                            <div class="product-info-header">
+                                                <div class="product-info-tag ">
+                                                    <i class="fas fa-tag"></i>
+                                                </div>
+                                                <div class="product-info-body">
+                                                    sipariş takip edin
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item ">
+                                        <div class="product-info-item" style="background-color:#009dcb;">
+                                            <div class="product-info-header">
+                                                <div class="product-info-tag">
+                                                    <img src="images/fiyat-talep.png" alt="">
+                                                </div>
+                                                <div class="product-info-body">
+                                                    fiyat talep edin
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="product-info-item" style=" background-color: #f7a600;">
+                                            <div class="product-info-header">
+                                                <div class="product-info-tag ">
+                                                    <img src="images/product-info-catalog.png" alt="">
+                                                </div>
+                                                <div class="product-info-body">
+                                                    katalog İndirin
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+    </section>
+    <!-- Home Section Finish -->
+
+    <!-- Corporate Section Start -->
+    <section id="corporate">
+        <div class="container-fluid">
+            <div class="container">
+
+                <div id="corporate-left" class="order-1 order-md-0">
+                    <p>İleri Teknoloji Baskı Kalitesinde <span style="color:#e30613">Lider.</span></p>
+
+                    <div id="corporate-content">
+                        <div id="slogan">25 Yıllık Büyük Bir Başarı Hikayesi</div>
+                        <article id="corporate-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Reprehenderit quaerat necessitatibus
+                            illo quos sunt culpa, ex architecto laboriosam, corrupti nam delectus.
+                            <br><br>
+                            Animi omnis quod
+                            excepturi? Enim corrupti dolorum nihil vitae nulla quo ea facilis labore, id maiores rem
+                            voluptate sequi delectus modi quasi aut earum quam animi. Dignissimos, quam ipsam.
+
+                            <br><br>
+                            Reprehenderit quaerat necessitatibus
+                            illo quos sunt culpa, ex architecto laboriosam, corrupti nam delectus.
+                        </article>
+                    </div>
+
+                </div>
+                <div id="corporate-right" class="d-none d-lg-inline-block">
+                    <img src="images/section2-people-right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Corporate Section Finish -->
+
+    <!-- Product Section Start -->
+    <section id="products">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="slide-container">
+                    <div class="slider">
+                        <div class="slider-header  col-12 col-lg-3 d-sm-flex d-lg-block">
+                            <div class="arrow">
+                                <i class="arrow-left fas fa-chevron-circle-left"></i>
+                                <i style="margin-top: 5px;" class="arrow-right fas fa-chevron-circle-right"></i>
+                            </div>
+                            <div class="slider-heading">
+                                Ürünlerimiz
+                            </div>
+                        </div>
+                        <div class="slider-body ">
+                            <div class="slides">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Product Section Start -->
+
+    <!-- Capabilities Section Start -->
+    <section id="capabilities">
+        <div class="container-fluid">
+            <div class="container">
+                <h1>Dünyada <span style="color:#e30613">10'dan</span> fazla ülkeye hizmet.</h1>
+                <p>Yurt içi ve yurt dışı pazarlama departmanlarımızda, eğitimli ve deneyimli müşteri temsilcilerimiz ile
+                    çözüm ortaklığı anlayışıyla hizmet vermekteyiz.
+                    Onayları alınıp baskı için ilettiğiniz her iş bizim işimizdir.
+                </p>
+                <div id="statistics">
+                    <div class="statistics-item">
+                        <div class="statistics-logo"
+                            style="margin-top:-0.5rem !important;margin-bottom: 0.5rem !important;">
+                            <img src="images/statistic1.png" alt="">
+                        </div>
+                        <div class="statistics-value">540 m²</div>
+                        <div class="statistics-name">Çalışma Sahası</div>
+                    </div>
+                    <div class="statistics-item">
+                        <div class="statistics-logo"><img src="images/statistic2.png" alt=""></div>
+                        <div class="statistics-value">100 Adet</div>
+                        <div class="statistics-name">Saatlik Kitap Basım</div>
+                    </div>
+                    <div class="statistics-item">
+                        <div class="statistics-logo"><img src="images/statistic3.png" alt=""></div>
+                        <div class="statistics-value">40+ Ekip</div>
+                        <div class="statistics-name">Profosyonel Kadro</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Capabilities Section Finish -->
+
+    <!-- News Section Start -->
+    <section id="news">
+        <div class="container-fluid">
+            <div class="container">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button class="all-button">Tümü</button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+
+
+                    <div class="col-md-12 ms-auto me-auto">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div id="news" class="d-flex" style="text-align: left">
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div id="news" class="d-flex" style="text-align: left">
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item ">
+                                <div id="news" class="d-flex" style="text-align: left">
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                    <div class="news-card">
+                                        <div class="news-card-header" style="display: flex">
+                                            <div class="date">20 Mayıs 2021</div>
+                                            <div>Haberler</div>
+                                        </div>
+                                        <hr />
+                                        <div class="news-card-headline">
+                                            Maecenas vel erat vestibulum, efficitur auguesed
+                                            pellentesque vestibulum.
+                                        </div>
+                                        <div class="news-card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                            sed do eiusmod tempor incididunt ut labore et dolore magna
+                                            aliqua. Risus commodo viverray maecenas accumsan lacus
+                                            velis.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- News Section Finish -->
+
+    <footer>
+        <!-- Contact Section Start -->
+        <section id="contact">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="contact-start">
+                        <div>E-Bültene Kaydol.</div>
+                        <div>Pantone Ofset hakkında son gelişmelerden ve kampanyalardan haberder olmak için el bültene
+                            adını
+                            soy adınız ve e-posta adresinizle bu alandan kayıt olabilirsiniz. </div>
+                        <div class="contact-start-inputs">
+                            <div class="contact-start-input">
+                                <input type="text" placeholder="Adınız soyadınız">
+                            </div>
+                            <div class="contact-start-input">
+                                <input type="email" placeholder="E-mail adresi"> <a class="text-white" href="#"><i
+                                        class="fas fa-check "></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="contact-medium">
+                        <div id="contact-medium-left">
+                            <div class="contact-medium-left-section">
+                                <div id="email-icon"> <i class="fas fa-envelope-open"></i></div>
+                                <div>
+                                    <div class="contact-medium-text"> <a style="color:white !important;"
+                                            href="mailto:info@pantoneofset.com.tr">info@pantoneofset.com.tr</a></div>
+                                    <div class="subtext subtext-primary">Merak ettiğiniz konular hakkında bize mail
+                                        gönderebilirsiniz.</div>
+                                </div>
+                            </div>
+
+
+                            <div class="contact-medium-left-section">
+                                <div id="tel-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-medium-text"> <a href="tel://4446218" style="color: #fff;">
+                                            444
+                                            62 18</a></div>
+                                    <div class="subtext subtext-primary">7/24 Destek Alın</div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+                        <div id="contact-medium-right">
+                            <div class="btn btn-large">
+                                Bize Ulaşın
+                                <i style="margin-left: 30px;" class="fas fa-arrow-right"></i>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="contact-finish">
+                        <div class="logo"><img src="images/logoYan.png" alt=""></div>
+                        <div id="contact-finish-menu">
+                            <div>
+                                <a href="#corporate">
+                                    <div>Kurumsal</div>
+                                </a>
+                                <a href="#">
+                                    <div>Kabiliyetlerimiz</div>
+                                </a>
+                                <a href="#products">
+                                    <div>Ürünlerimiz</div>
+                                </a>
+
+                            </div>
+                            <div>
+                                <a href="#news">
+                                    <div>Bizden Haberler</div>
+                                </a>
+                                <a href="#contact">
+                                    <div>İletişim</div>
+                                </a>
+
+                            </div>
+                        </div>
+
+
+                        <div class="social-media-group-element">
+                            <ul>
+                                <a href="https://www.facebook.com/pantonecreative"><li><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="8px" height="14px">
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                        d="M2.110,2.938 C2.110,3.274 2.110,4.766 2.110,4.766 L0.677,4.766 L0.677,7.000 L2.110,7.000 L2.110,13.641 L5.053,13.641 L5.053,7.000 L7.028,7.000 C7.028,7.000 7.213,5.929 7.302,4.758 C7.045,4.758 5.064,4.758 5.064,4.758 C5.064,4.758 5.064,3.457 5.064,3.229 C5.064,3.002 5.385,2.694 5.702,2.694 C6.018,2.694 6.687,2.694 7.305,2.694 C7.305,2.390 7.305,1.338 7.305,0.368 C6.479,0.368 5.539,0.368 5.125,0.368 C2.037,0.367 2.110,2.604 2.110,2.938 Z" />
+                                </svg></i></li></a>
+                            <a href="https://twitter.com/pantonecreative"> <li><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="10px">
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                        d="M12.236,1.436 C12.179,1.453 12.122,1.468 12.065,1.483 C11.716,1.573 11.684,1.454 11.937,1.195 C12.050,1.079 12.150,0.952 12.237,0.814 C12.431,0.507 12.263,0.374 11.932,0.517 C11.813,0.569 11.693,0.615 11.571,0.656 C11.230,0.772 10.746,0.597 10.442,0.402 C10.058,0.155 9.622,0.032 9.133,0.032 C8.448,0.032 7.864,0.277 7.382,0.765 C6.899,1.255 6.657,1.846 6.657,2.539 C6.657,2.634 6.663,2.731 6.673,2.828 C6.691,2.988 6.426,3.103 6.070,3.052 C5.299,2.941 4.566,2.705 3.872,2.342 C3.183,1.982 2.576,1.529 2.049,0.982 C1.797,0.721 1.456,0.744 1.362,1.097 C1.306,1.308 1.278,1.527 1.278,1.755 C1.278,2.185 1.378,2.584 1.577,2.952 C1.676,3.135 1.792,3.300 1.925,3.448 C2.149,3.697 2.115,3.842 1.803,3.754 C1.491,3.664 1.263,3.533 1.263,3.541 C1.263,3.550 1.263,3.558 1.263,3.558 C1.263,4.162 1.450,4.695 1.826,5.152 C2.057,5.435 2.326,5.653 2.632,5.806 C2.955,5.968 3.105,6.059 2.924,6.083 C2.816,6.097 2.706,6.104 2.596,6.104 C2.521,6.104 2.443,6.100 2.361,6.094 C2.232,6.082 2.209,6.355 2.405,6.661 C2.560,6.905 2.760,7.119 3.002,7.303 C3.249,7.492 3.515,7.627 3.799,7.709 C4.146,7.809 4.215,7.992 3.906,8.179 C3.142,8.644 2.297,8.876 1.370,8.876 C1.265,8.876 1.165,8.873 1.070,8.869 C0.905,8.861 1.016,9.009 1.335,9.177 C2.332,9.707 3.411,9.970 4.573,9.970 C5.452,9.970 6.277,9.830 7.048,9.547 C7.819,9.266 8.479,8.887 9.025,8.414 C9.572,7.940 10.043,7.396 10.439,6.780 C10.835,6.164 11.130,5.520 11.324,4.850 C11.518,4.179 11.615,3.507 11.615,2.835 C11.615,2.774 11.615,2.720 11.614,2.672 C11.612,2.582 11.847,2.338 12.110,2.088 C12.229,1.976 12.342,1.858 12.449,1.733 C12.688,1.459 12.582,1.333 12.236,1.436 Z" />
+                                </svg></li></a>
+                            <a href="https://www.instagram.com/pantonecreative/"> <li><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="14px">
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                        d="M12.844,12.904 C12.104,13.641 11.048,14.010 9.886,14.010 L4.129,14.010 C2.967,14.010 1.910,13.640 1.171,12.904 C0.378,12.166 0.009,11.113 0.009,9.902 L0.009,4.107 C0.009,1.685 1.646,0.000 4.129,0.000 L9.939,0.000 C11.153,0.000 12.157,0.421 12.896,1.159 C13.636,1.896 14.006,2.897 14.006,4.107 L14.006,9.902 C14.006,11.113 13.583,12.166 12.844,12.904 ZM7.000,3.500 C5.067,3.500 3.500,5.067 3.500,7.000 C3.500,8.933 5.067,10.500 7.000,10.500 C8.933,10.500 10.500,8.933 10.500,7.000 C10.500,5.067 8.933,3.500 7.000,3.500 ZM10.500,1.750 C10.017,1.750 9.625,2.142 9.625,2.625 C9.625,3.108 10.017,3.500 10.500,3.500 C10.983,3.500 11.375,3.108 11.375,2.625 C11.375,2.142 10.983,1.750 10.500,1.750 Z" />
+                                </svg></li></a>
+                            <a href="https://www.youtube.com/channel/UCOEIp3SKY1xysp1jSe1e3BA">
+                            <li><svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="17px">
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                        d="M15.761,9.781 L15.761,14.372 C15.761,14.658 15.694,14.919 15.558,15.160 C15.423,15.401 15.238,15.612 15.005,15.793 C14.772,15.975 14.503,16.117 14.198,16.222 C13.891,16.325 13.560,16.379 13.205,16.379 L2.775,16.379 C2.428,16.379 2.100,16.325 1.794,16.222 C1.488,16.117 1.218,15.975 0.986,15.793 C0.755,15.612 0.569,15.401 0.433,15.160 C0.297,14.919 0.230,14.658 0.230,14.372 L0.230,9.781 C0.230,9.509 0.297,9.250 0.434,9.003 C0.569,8.755 0.756,8.541 0.987,8.364 C1.219,8.187 1.488,8.042 1.795,7.936 C2.101,7.828 2.429,7.774 2.776,7.774 L13.206,7.774 C13.553,7.774 13.882,7.828 14.193,7.936 C14.503,8.042 14.773,8.187 15.006,8.364 C15.240,8.542 15.423,8.756 15.558,9.003 C15.695,9.250 15.761,9.509 15.761,9.781 ZM3.474,14.883 L3.474,10.042 L4.754,10.042 L4.754,9.310 L1.299,9.310 L1.299,10.021 L2.406,10.021 L2.406,14.883 L3.474,14.883 ZM3.996,3.620 L2.566,0.809 L3.810,0.809 L4.522,2.910 L5.231,0.809 L6.474,0.809 L5.135,3.620 L5.135,6.895 L3.996,6.895 L3.996,3.620 ZM7.357,10.752 L6.289,10.752 L6.289,13.337 C6.289,13.524 6.290,13.669 6.298,13.769 C6.306,13.871 6.290,13.936 6.252,13.964 C6.220,14.074 6.130,14.156 5.977,14.210 C5.829,14.260 5.715,14.187 5.635,13.984 C5.618,13.956 5.616,13.888 5.624,13.782 C5.632,13.671 5.635,13.531 5.635,13.356 L5.613,10.752 L4.543,10.752 L4.568,13.316 C4.568,13.517 4.563,13.685 4.555,13.821 C4.548,13.956 4.550,14.059 4.568,14.130 C4.582,14.244 4.597,14.362 4.613,14.491 C4.627,14.620 4.701,14.723 4.835,14.799 C4.958,14.869 5.104,14.906 5.269,14.906 C5.438,14.906 5.601,14.880 5.758,14.831 C5.919,14.780 6.064,14.714 6.199,14.629 C6.334,14.542 6.435,14.447 6.495,14.350 L6.474,14.861 L7.357,14.881 L7.357,10.752 ZM6.379,4.050 C6.379,3.666 6.420,3.348 6.495,3.100 C6.591,2.840 6.741,2.656 6.950,2.543 C7.161,2.405 7.428,2.335 7.753,2.335 C8.039,2.335 8.278,2.377 8.474,2.460 C8.666,2.529 8.826,2.651 8.949,2.826 C9.043,2.953 9.114,3.094 9.160,3.255 C9.204,3.430 9.229,3.662 9.229,3.957 L9.229,5.053 C9.229,5.452 9.204,5.737 9.160,5.912 C9.141,6.072 9.066,6.250 8.925,6.446 C8.786,6.619 8.636,6.735 8.474,6.790 C8.278,6.875 8.059,6.915 7.810,6.915 C7.557,6.915 7.321,6.880 7.113,6.810 C6.918,6.755 6.775,6.653 6.683,6.508 C6.591,6.395 6.512,6.239 6.449,6.037 C6.404,5.846 6.379,5.564 6.379,5.180 L6.379,4.050 ZM7.333,5.754 C7.333,5.866 7.379,5.966 7.473,6.053 C7.565,6.139 7.678,6.183 7.809,6.183 C7.932,6.183 8.044,6.141 8.141,6.057 C8.238,5.975 8.285,5.873 8.285,5.754 L8.285,3.486 C8.285,3.360 8.238,3.255 8.141,3.167 C8.045,3.080 7.932,3.035 7.810,3.035 C7.686,3.035 7.575,3.080 7.480,3.167 C7.382,3.255 7.333,3.360 7.333,3.486 L7.333,5.754 ZM10.808,13.702 L10.808,11.558 C10.808,11.147 10.647,10.853 10.322,10.680 C10.215,10.625 10.088,10.596 9.950,10.596 C9.693,10.596 9.399,10.704 9.066,10.919 L9.066,9.310 L7.996,9.310 L7.996,14.841 L8.881,14.821 L8.949,14.476 C9.237,14.694 9.496,14.826 9.723,14.874 C9.953,14.922 10.145,14.902 10.304,14.815 C10.464,14.729 10.587,14.587 10.676,14.386 C10.764,14.187 10.808,13.959 10.808,13.702 ZM9.520,11.129 C9.644,11.129 9.752,11.162 9.850,11.230 C9.947,11.296 9.995,11.371 9.995,11.453 L9.995,13.879 C9.995,13.964 9.947,14.035 9.850,14.099 C9.752,14.161 9.643,14.194 9.520,14.194 C9.394,14.194 9.285,14.161 9.187,14.099 C9.091,14.036 9.044,13.964 9.044,13.879 L9.044,11.453 C9.044,11.370 9.092,11.296 9.187,11.230 C9.285,11.162 9.394,11.129 9.520,11.129 ZM10.018,6.466 C9.991,6.410 9.968,6.350 9.961,6.293 C9.952,6.234 9.942,6.176 9.925,6.121 C9.910,6.051 9.902,5.957 9.902,5.837 L9.902,5.379 L9.902,2.504 L10.902,2.504 L10.902,5.828 C10.902,5.912 10.936,5.984 11.005,6.047 C11.078,6.110 11.169,6.141 11.286,6.141 C11.394,6.141 11.487,6.110 11.564,6.047 C11.643,5.984 11.683,5.912 11.683,5.828 L11.683,2.504 L12.610,2.504 L12.610,6.771 L11.427,6.771 L11.449,6.425 C11.339,6.563 11.236,6.673 11.135,6.749 C11.011,6.817 10.877,6.853 10.728,6.853 C10.551,6.853 10.402,6.817 10.285,6.749 C10.184,6.686 10.095,6.592 10.018,6.466 ZM14.179,13.430 L13.378,13.430 L13.378,13.535 L13.378,13.900 C13.378,14.012 13.334,14.099 13.245,14.161 C13.156,14.225 13.050,14.255 12.927,14.255 L12.761,14.255 C12.638,14.255 12.537,14.225 12.454,14.161 C12.373,14.099 12.331,14.012 12.331,13.900 L12.331,13.859 L12.331,13.451 L12.331,12.906 L14.179,12.906 L14.179,12.331 C14.179,12.116 14.176,11.908 14.168,11.711 C14.160,11.511 14.141,11.356 14.111,11.246 C14.080,11.055 13.986,10.906 13.825,10.789 C13.667,10.675 13.482,10.596 13.267,10.556 C13.055,10.513 12.838,10.505 12.616,10.534 C12.396,10.562 12.206,10.627 12.040,10.733 C11.833,10.857 11.682,11.029 11.588,11.246 C11.494,11.460 11.449,11.760 11.449,12.145 L11.449,13.431 C11.449,13.974 11.609,14.363 11.926,14.592 C12.220,14.807 12.529,14.915 12.855,14.915 C12.886,14.915 12.916,14.915 12.950,14.915 C13.315,14.897 13.636,14.756 13.915,14.498 C14.124,14.310 14.229,14.062 14.229,13.755 C14.217,13.658 14.204,13.548 14.179,13.430 ZM13.355,12.206 L12.332,12.206 L12.355,11.694 C12.355,11.582 12.402,11.492 12.494,11.417 C12.588,11.344 12.699,11.307 12.832,11.307 L12.879,11.307 C13.017,11.307 13.135,11.342 13.234,11.411 C13.328,11.480 13.378,11.575 13.378,11.694 L13.355,12.206 Z" />
+                                </svg></li></a>
+                            <a href="https://www.linkedin.com/company/pantone-creative-agency/"><li>
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="13px" height="12px">
+                                    <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                        d="M12.778,11.995 L10.178,11.995 C10.063,11.995 9.969,11.909 9.969,11.801 L9.969,8.033 C9.969,6.978 9.885,6.171 8.825,6.171 C7.853,6.171 7.474,6.675 7.474,7.967 L7.474,11.801 C7.474,11.909 7.380,11.995 7.265,11.995 L4.666,11.995 C4.550,11.995 4.457,11.909 4.457,11.801 L4.457,4.051 C4.457,3.944 4.550,3.858 4.666,3.858 L7.160,3.858 C7.276,3.858 7.370,3.944 7.370,4.051 L7.370,4.555 C7.839,4.081 8.612,3.665 9.658,3.665 C12.592,3.665 12.987,5.629 12.987,7.551 L12.987,11.801 C12.987,11.909 12.894,11.995 12.778,11.995 ZM1.731,3.186 C0.784,3.186 0.013,2.472 0.013,1.595 C0.013,0.719 0.784,0.005 1.731,0.005 C2.678,0.005 3.449,0.719 3.449,1.595 C3.449,2.472 2.678,3.186 1.731,3.186 ZM0.428,3.858 L3.033,3.858 C3.148,3.858 3.242,3.944 3.242,4.051 L3.242,11.801 C3.242,11.909 3.148,11.995 3.033,11.995 L0.428,11.995 C0.312,11.995 0.219,11.909 0.219,11.801 L0.219,4.051 C0.219,3.944 0.312,3.858 0.428,3.858 Z" />
+                                </svg>
+                            </li></a>
+                            </ul>
+                        </div>
+                        <div class="btn btn-large">E-portal Giriş <i style="margin-left: 19px;"
+                                class="fas fa-arrow-right"></i></div>
+                    </div>
+                    <div class="contact-footer text-center">© 1997-2021 Pantone OFSET. Tüm Hakları Saklıdır</i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section Finish -->
+    </footer>
+
+
+
+    <!-- JQuery Files -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+    <!-- Local JavaScript Files -->
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Bootstrap Buddle JavaScript Files -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

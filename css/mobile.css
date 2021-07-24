@@ -1,0 +1,74 @@
+html {
+  font-size: 1px;
+}
+
+
+
+/* Header Section Start */
+
+#product-info {
+  padding-left: 30px;
+  bottom: -80px;
+  left: 30px;
+}
+
+/* Header Section Finish */
+
+/* Corporate Section Start*/
+
+#slogan {
+  width: 100%;
+  margin:30px 0;
+  line-height: 2rem;
+}
+
+#corporate-description {
+  line-height: 25rem;
+  margin-bottom: 20px;
+}
+
+/* Corporate Section Finish*/
+
+/* Products Section Start */
+#products .slide-container,#products .slider{
+  width: 80% !important;
+}
+#products .slider-header {
+  width: 20%;
+}
+/* Products Section Finish */
+
+ /* Capabilities Section Start  */
+ #capabilities .container {
+   height: auto;
+ }
+ #capabilities .container h1 {
+  margin-bottom: 20px;
+}
+
+#capabilities .container #statistics {
+  width: 100%;
+  margin: 0px auto;
+}
+
+#capabilities .container #statistics .statistics-item .statistics-logo {
+  width: 45%;
+  height: 12%;
+}
+
+
+ /* Capabilities Section Finish  */
+
+ /* News Section Start  */
+.news-card-headline {
+  font-size: 15pt;
+  margin:10px 0;
+}
+
+.news-card-footer {
+  margin-top: 120px;
+}
+ /* News Section Finish  */
+
+ 
+
