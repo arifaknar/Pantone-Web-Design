@@ -37,7 +37,7 @@ border-radius: 50%;
 
 /* Menü Gizleme*/
 .hide{
-right:-50px !important;
+right:-30px !important;
   visibility: hidden;
 }
 
